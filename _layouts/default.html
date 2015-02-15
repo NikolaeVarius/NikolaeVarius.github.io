@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html class = "background">
 
   {% include head.html %}
+  {% include navbar.html %}
 
-  <body class = "background">
-
-    {% include header.html %}
-    {% include navbar.html %}
-
-    <div class="page-content">
-      <div class="container">
+  <body class="body-fixed">
+    <div class="container">
+      <div class="row">
+        <img src="/img/profile.jpg" class="img-responsive" alt="Responsive image">
         {{ content }}
       </div>
-    </div>
 
+      <div class="row">
+        <div class=" container">
+            <h2>TEST</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+            <h2>TEST</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+            <h2>TEST</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+      </div>
+
+
+    </div>
   </body>
 
     {% include footer.html %}
