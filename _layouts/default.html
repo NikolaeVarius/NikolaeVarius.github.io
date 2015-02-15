@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class = "background">
+<html>
 
   {% include head.html %}
   {% include navbar.html %}
@@ -10,7 +10,8 @@
         <img src="/img/profile.jpg" class="img-responsive" alt="Responsive image">
         {{ content }}
       </div>
-
+          <button type="button" class="btn-primary btn-material-blue-100">Button 1</button>
+          <button type="button" class="btn-primary btn-material-blue-100">Button 2</button>
       <div class="row">
         <div class=" container">
             <h2>TEST</h2>
@@ -31,11 +32,23 @@
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         </div>
       </div>
-
-
     </div>
+
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="/js/ripples.min.js"></script>
+    <script src="/js/material.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $.material.init();
+    });
+    </script>
+
   </body>
 
     {% include footer.html %}
+
+
 
 </html>

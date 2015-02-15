@@ -32,10 +32,6 @@ body {
   color: black;
 }
 
-.background{
-  background-image:url("/img/paper_fibers/paper_fibers.png");
-}
-
 .body-fixed{
   padding-top: 70px;
 }
