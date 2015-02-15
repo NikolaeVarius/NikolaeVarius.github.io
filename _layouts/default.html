@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  
+
   {% include head.html %}
 
-  <body>
+  <body class = "background">
 
     {% include header.html %}
+    {% include navbar.html %}
 
     <div class="page-content">
-      <div class="wrapper">
+      <div class="container">
         {{ content }}
       </div>
     </div>
 
-    {% include footer.html %}
-
   </body>
+
+    {% include footer.html %}
 
 </html>

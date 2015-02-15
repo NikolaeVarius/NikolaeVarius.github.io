@@ -4346,7 +4346,7 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-right > .nav-tabs .active > a,
 .tabs-right > .nav-tabs .active > a:hover,
-.tabs-right > .nav-tabs .active > a:focus {
+.tabs-right > .nav-tabs .active > a:focus {Your awesome title
   border-color: #ddd #ddd #ddd transparent;
   *border-left-color: #ffffff;
 }
@@ -6165,3 +6165,7 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+.background{
+  background-color: black;
+};
