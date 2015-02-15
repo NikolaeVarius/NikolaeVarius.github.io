@@ -3,8 +3,7 @@ title: Your awesome title
 email: joekim29@gmail.com
 baseurl: "/NikolaeVarius.github.io" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  NikolaeVarius
 
 # Build settings
 markdown: kramdown
