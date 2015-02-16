@@ -6,11 +6,3 @@ date:   2015-02-14 20:52:24
 This website is basically a test of everything I want to learn. Front End/Back End/Mobile. 
 
 Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
