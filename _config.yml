@@ -2,7 +2,7 @@
 title: Your awesome title
 email: joekim29@gmail.com
 baseurl: "/NikolaeVarius.github.io" # the subpath of your site, e.g. /blog/
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://nikolaevarius.github.io/" # the base hostname & protocol for your site
 github_username:  NikolaeVarius
 
 # Build settings
