@@ -1,13 +1,9 @@
 # Site settings
-title: Your awesome title
+title: Joseph Kim
 email: joekim29@gmail.com
 baseurl: "/myJekyllBlog" # the subpath of your site, e.g. /blog/
 #url: "http://nikolaevarius.github.io/myJekyllBlog/" # the base hostname & protocol for your site
-email: your-email@domain.com
-baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  nikolaevarius
 
 # Build settings
 markdown: kramdown
