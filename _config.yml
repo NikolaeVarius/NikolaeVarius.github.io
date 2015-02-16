@@ -1,7 +1,7 @@
 # Site settings
 title: Joseph Kim
 email: joekim29@gmail.com
-baseurl: "/http://nikolaevarius.github.io" # the subpath of your site, e.g. /blog/
+baseurl: "/nikolaevarius.github.io" # the subpath of your site, e.g. /blog/
 #url: "http://nikolaevarius.github.io/myJekyllBlog/" # the base hostname & protocol for your site
 github_username:  nikolaevarius
 
