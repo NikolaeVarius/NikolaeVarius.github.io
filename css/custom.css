@@ -40,3 +40,8 @@ body {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
+
+.sticky-footer {
+    position: absolute;
+    bottom: 0;  
+}
