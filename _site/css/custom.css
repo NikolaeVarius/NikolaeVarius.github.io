@@ -35,3 +35,8 @@ body {
 .body-fixed{
   padding-top: 70px;
 }
+
+.navbar-fixed-top{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
