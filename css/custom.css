@@ -33,7 +33,7 @@
 }
 
 .bg{
-  background: url('../img/header.png');
+  background: url('../img/header.png') class="img-responsive";
   background-size:100% auto;
   background-repeat:no-repeat !important;
   -webkit-background-size:cover !important;
