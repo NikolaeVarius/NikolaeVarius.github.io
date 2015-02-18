@@ -22,13 +22,15 @@
 </head>
 
   <header>
+   <div class="bg">
+  </div>
 </header>
 
   <!DOCTYPE html>
 <html>
-<header>
-<div class="container">		
-	<div class="navbar navbar-default navbar-fixed-top navbar-material-grey-900 navbar-fixed-margin shadow-z-3" role="navigation">
+<div class="container-fluid">		
+<div class="row">
+	<div class="navbar navbar-default navbar-material-grey-900 navbar-fixed-margin shadow-z-3" role="navigation">
 	    <div class="navbar-header">
 	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 	            <span class="icon-bar"></span>
@@ -44,54 +46,42 @@
 	            <li><a href="/news/index.html">News</a></li>
 	            <li><a href="/resume/index.html">Resume</a></li>
 	            <li><a href="/projects/index.html">Projects</a></li>
-	            <li><a href="javascript:void(0)">About</a></li>
-	            <li><a href="javascript:void(0)">Credits</a></li>
+	            <li><a href="/about/index.html">About</a></li>
+	            <li><a href="/credits/index.html">Credits</a></li>
 	        </ul>
 	    </div>
 	</div>
 </div>
-</header>
+</div>
 </html>
 
   <body class="body-fixed">
-  
-    <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
-
-  <article class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
-
-<p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
-
-<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
-
-  </article>
-
+    <div class="news">
 </div>
 
-
-    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+    <script src="/code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
     <script src="/js/ripples.min.js"></script>
     <script src="/js/material.min.js"></script>
 
     <script>
       $(document).ready(function() {
-          $.material.init();
+        $.material.init();
       });
     </script>
 
   </body>
+
   <footer>
-  <div class="container-fluid modal-footer navbar-fixed-margin navbar-static-bottom">
-          <strong class="roboto-white">Joseph Kim</strong><br>
-          <p class="contact-list"><a href="mailto:joekim29@gmail.com">joekim29@gmail.com</a></p>
-          <p class="roboto-white">This Website Kills Facists</p>
-  </div>
+	<div class="container-fluid modal-footer navbar-fixed-margin navbar-static-bottom">
+	  <div class="row">
+        <strong class="roboto-white">Joseph Kim</strong><br>
+        <p class="contact-list"><a href="mailto:joekim29@gmail.com">joekim29@gmail.com</a></p>
+        <p class="roboto-white">This Website Kills Facists</p>
+	  </div>
+	</div>
 </footer>
 
 </html>
