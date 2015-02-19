@@ -49,6 +49,7 @@
 }
 
 #topnavbar {
+    padding:0;
     margin: 0;
 }
 
@@ -60,6 +61,10 @@
 
 .main-content{
   min-width: 800px;
+}
+
+.top-padding{
+  padding-top: 40px;
 }
 
 .center-icon{
