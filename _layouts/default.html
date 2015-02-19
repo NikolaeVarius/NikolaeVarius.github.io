@@ -4,12 +4,13 @@
   {% include header.html %}
   {% include navbar.html %}
 
-<body class="body-fixed">
+<body>
     {{ content }}
 
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+    <script src="{{ site.baseurl }}/js/custom.js"></script>
     <script src="{{ site.baseurl }}/js/ripples.min.js"></script>
     <script src="{{ site.baseurl }}/js/material.min.js"></script>
 
@@ -19,7 +20,7 @@
       });
     </script>
 
-  </body>
+</body>
 
   {% include footer.html %}
 </html>
