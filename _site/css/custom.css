@@ -71,3 +71,12 @@
 .nav-padding{
   padding: 0px;
 }
+
+.footer-social{
+  display:inline;
+  float:left;
+}
+
+.footer-icons{
+  display:inline;
+}
