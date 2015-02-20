@@ -37,12 +37,14 @@
   -o-background-size:cover !important;*/
   background-position: 0% auto !important;
   height: 400px;
+  margin:0px;
+  overflow: visible;
 }
 
 .header-name{
   font-size: 80px;
   float: right;
-  padding-top:50px;
+  padding-top:80px;
   padding-right:40px;
 }
 
@@ -50,12 +52,6 @@
   font-size: 20px;
   float: right;
   padding-top:150px;
-}
-
-
-
-.main-content{
-    padding-top: 40px;
 }
 
 .center-icon{
@@ -67,4 +63,8 @@
 .footer-social{
   display:inline;
   float:left;
+}
+
+.content-padding{
+  padding-top:40px;
 }
