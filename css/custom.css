@@ -15,7 +15,7 @@
 }
 
 .roboto-white{
-  color: white;
+  color: #e0e0e0;
 }
 
 .roboto-black{
@@ -39,20 +39,23 @@
   height: 400px;
 }
 
-.header-name {
-  font-size: 55px;
-  line-height: 1;
-  text-align: center;
-  padding-top:30px;
-  color:white;
+.header-name{
+  font-size: 80px;
+  float: right;
+  padding-top:50px;
+  padding-right:40px;
 }
+
+.header-text{
+  font-size: 20px;
+  float: right;
+  padding-top:150px;
+}
+
+
 
 .main-content{
-  min-width: 800px;
-}
-
-.top-padding{
-  padding-top: 40px;
+    padding-top: 40px;
 }
 
 .center-icon{
@@ -64,8 +67,4 @@
 .footer-social{
   display:inline;
   float:left;
-}
-
-.footer-icons{
-  display:inline;
 }
