@@ -1,5 +1,5 @@
-$('#topnavbar').affix({
-    offset: {
-        top: $('#banner').height()
-    }   
-});
+// $('#topnavbar').affix({
+//     offset: {
+//         top: $('#banner').height()
+//     }   
+// });

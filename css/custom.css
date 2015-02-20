@@ -22,22 +22,21 @@
   color: black;
 }
 
-.navbar-fixed-margin{
+.navbar-fixed{
   margin-left: 0px !important;
   margin-right: 0px !important;
   width: 100%;
 }
 
 .bg{
-  background-image: url("../img/header2.png");
+  background-image: url("../img/header3.jpg");
   background-size:100% auto;
   background-repeat:no-repeat !important;
 /*  -webkit-background-size:cover !important;
   -moz-background-size:cover !important;
   -o-background-size:cover !important;*/
-  background-position: 0% 50% !important;
-  height: 150px;
-  min-width: 800px;
+  background-position: 0% auto !important;
+  height: 400px;
 }
 
 .header-name {
@@ -46,17 +45,6 @@
   text-align: center;
   padding-top:30px;
   color:white;
-}
-
-#topnavbar {
-    padding:0;
-    margin: 0;
-}
-
-#topnavbar.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 .main-content{
@@ -71,10 +59,6 @@
   align-items: center;
   height: 100%
   vertical-align: middle
-}
-
-.nav-padding{
-  padding: 0px;
 }
 
 .footer-social{
