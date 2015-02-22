@@ -29,20 +29,19 @@
 }
 
 .bg{
-  background-image: url("../img/header3.jpg");
-/*  background-size:100%;*/
+  background-image: url("../img/heading3.jpg");
+  background-size:cover !important;
   background-repeat:no-repeat !important;
-  background-position: 0% auto !important;
-  min-height: 400px;
-  width: 100%;
-  margin:0px;
+  height: 100%;
+  margin-top:70px;
 }
 
 .header-name{
   font-size: 80px;
-  float: right;
+  float: left;
   padding-top:80px;
-  padding-right:40px;
+  padding-left: 40px;
+  font: roboto-bold;
 }
 
 .header-text{
