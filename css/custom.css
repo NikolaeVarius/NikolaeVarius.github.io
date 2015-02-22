@@ -39,11 +39,16 @@ color: rgba(255,255,255,.84)
   -moz-background-size:cover !important;
   -o-background-size:cover !important;
   background-position:center !important;*/
-
 }
+
 @media (max-width: 767px){
   .bg {
     margin-top: -20px;
+  }
+
+  .nav-text{
+    font-size: 30px;
+    text-align: center;
   }
 }
 
