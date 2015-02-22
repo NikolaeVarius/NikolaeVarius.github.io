@@ -33,7 +33,7 @@ color: rgba(255,255,255,.84)
   background-image: url("../img/head.jpg");
   background-size:cover !important;
   background-repeat:no-repeat !important;
-  height: 350px;
+  height: 300px;
   margin-top: 50px;
 /*  -webkit-background-size:cover !important;
   -moz-background-size:cover !important;
@@ -55,7 +55,7 @@ color: rgba(255,255,255,.84)
 .header-name {
   font-size: 100px;
   float: right;
-  padding-top:200px;
+  padding-top:150px;
   padding-right: 40px;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -63,7 +63,7 @@ color: rgba(255,255,255,.84)
 .header-text {
   font-size: 20px;
   float: right;
-  padding-top:150px;
+  padding-top:100px;
 }
 
 .footer-icons {
@@ -75,7 +75,7 @@ color: rgba(255,255,255,.84)
 }
 
 .footer-text{
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .content-padding {
