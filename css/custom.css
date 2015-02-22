@@ -33,7 +33,7 @@
   background-image: url("../img/head.jpg");
   background-size:cover !important;
   background-repeat:no-repeat !important;
-  height: 500px;
+  height: 350px;
   margin-top: 50px;
 }
 
@@ -62,5 +62,9 @@
 }
 
 .content-padding{
-  padding-top:40px;
+  padding-top:30px;
+}
+
+p{
+  font-size:30px;
 }
