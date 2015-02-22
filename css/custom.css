@@ -52,6 +52,8 @@ color: rgba(255,255,255,.84)
   }
 }
 
+.nav-bar > li > a:hover { background-color: #black !important; }
+
 .header-name {
   font-size: 100px;
   float: right;
