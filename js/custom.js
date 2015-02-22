@@ -1,5 +1,5 @@
-$(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
-        $(this).collapse('hide');
-    }
+$(function () {
+        $('.navbar-collapse ul li a:not(.dropdown-toggle)').bind('click touchstart', function () {
+                $('.navbar-toggle:visible').click();
+        });
 });
