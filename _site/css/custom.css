@@ -34,8 +34,11 @@
   background-size:cover !important;
   background-repeat:no-repeat !important;
   height: 350px;
-  width: 1920px;
   margin-top: 50px;
+  -webkit-background-size:cover !important;
+  -moz-background-size:cover !important;
+  -o-background-size:cover !important;
+  background-position:center !important;
 }
 
 .header-name {
