@@ -39,15 +39,11 @@ color: rgba(255,255,255,.84)
   -moz-background-size:cover !important;
   -o-background-size:cover !important;
   background-position:center !important;*/
-    @media (max-width: 767px){
-      #header-image {
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-      }
 
-      .bg {
-      margin-top: 0px;
-      }
+}
+@media (max-width: 767px){
+  .bg {
+    margin-top: -20px;
   }
 }
 
@@ -69,6 +65,10 @@ color: rgba(255,255,255,.84)
   display:inline-block;
 }
 
+.footer-text{
+  margin-right: 10px;
+}
+
 .content-padding {
   padding-top:10px;
 }
@@ -79,6 +79,11 @@ color: rgba(255,255,255,.84)
 
 p {
   font-size:20px;
+}
+
+body{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .about-post {
