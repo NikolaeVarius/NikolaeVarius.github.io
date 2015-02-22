@@ -26,7 +26,6 @@
   margin-left: 0px !important;
   margin-right: 0px !important;
   width: 100%;
-
 }
 
 .bg {
@@ -35,18 +34,23 @@
   background-repeat:no-repeat !important;
   height: 350px;
   margin-top: 50px;
-  -webkit-background-size:cover !important;
+/*  -webkit-background-size:cover !important;
   -moz-background-size:cover !important;
   -o-background-size:cover !important;
-  background-position:center !important;
+  background-position:center !important;*/
+    @media (max-width: 767px){
+    #header-image {
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+    }
+  }
 }
 
 .header-name {
   font-size: 100px;
   float: right;
-  padding-top:80px;
+  padding-top:160px;
   padding-right: 40px;
-  font: roboto-bold;
 }
 
 .header-text {
@@ -66,9 +70,20 @@
 }
 
 .content-padding {
-  padding-top:30px;
+  padding-top:10px;
+}
+
+.panel {
+  margin-bottom: 0px;
 }
 
 p {
   font-size:20px;
+}
+
+
+@media (max-width: 767px){
+  .bg {
+    margin-top: 0px;
+  }
 }
