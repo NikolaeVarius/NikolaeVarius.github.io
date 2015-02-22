@@ -43,7 +43,7 @@ color: rgba(255,255,255,.84)
 
 @media (max-width: 767px){
   .bg {
-    margin-top: -20px;
+    display:none;
   }
 
   .nav-text{
@@ -67,7 +67,11 @@ color: rgba(255,255,255,.84)
 }
 
 .footer-icons {
-  display:inline-block;
+  list-style: none;
+  text-decoration:none;
+  display:inline-block !important;  
+  float:left;
+  position: relative;
 }
 
 .footer-text{
