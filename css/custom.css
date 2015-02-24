@@ -35,10 +35,9 @@ color: rgba(255,255,255,.84)
   background-repeat:no-repeat !important;
   height: 150px;
   margin-top: 60px;
-/*  -webkit-background-size:cover !important;
+  -webkit-background-size:cover !important;
   -moz-background-size:cover !important;
   -o-background-size:cover !important;
-  background-position:center !important;*/
 }
 
 @media (max-width: 767px){
@@ -56,14 +55,7 @@ color: rgba(255,255,255,.84)
 
 .header-name {
   font-size: 100px;
-  float: right;
-  padding-right: 14%;
-}
-
-.header-text {
-  font-size: 20px;
-  float: right;
-  padding-top:50px;
+  text-align: center;
 }
 
 .footer-icons {
@@ -97,6 +89,10 @@ body{
 
 .about-post {
   font-size:16px;
+}
+
+.panel-primary > .panel-pink{
+  background-color: #f50057;
 }
 
 /*.panel {
