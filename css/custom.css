@@ -51,14 +51,17 @@ color: rgba(255,255,255,.84)
   }
 }
 
-.nav-bar > li > a:hover { background-color: #black !important; }
-
 .header-name {
   font-size: 100px;
   text-align: center;
 }
 
-.footer-icons {
+#s-icon{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.social-icons {
   list-style: none;
   text-decoration:none;
   display:inline-block !important;  
@@ -72,6 +75,10 @@ color: rgba(255,255,255,.84)
 
 .content-padding {
   padding-top:10px;
+}
+
+.panel-heading > h1{
+  font-size:25px;
 }
 
 .panel {
@@ -91,7 +98,7 @@ body{
   font-size:16px;
 }
 
-.panel-primary > .panel-pink{
+.panel-primary > .panel-heading{
   background-color: #f50057;
 }
 
