@@ -19,6 +19,6 @@ $(function () { //this set of functions deals with the nav bar
 
 });
 
-$(function () { //this set of functions governs animations?
+$(function () { //this set of functions governs animations? I'm still hesistant over using js for animations vs CSS.
 
 });
