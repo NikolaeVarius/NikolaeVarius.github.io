@@ -19,6 +19,21 @@ $(function () { //this set of functions deals with the nav bar
 
 });
 
-$(function () { //this set of functions governs animations? I'm still hesistant over using js for animations vs CSS.
+$(document).ready(function () {
+	$( ".panel" ).hide();
 
-});
+	//$( ".panel" ).fadeIn( 2000, function() {
+	//$( ".panel" ).fadeIn( 3000, function() {
+	//$( ".panel" ).fadeIn( 4000, function() {
+
+	$( "#panel-1" ).fadeIn( 100, function() {
+	$( "#panel-2" ).fadeIn( 200, function() {
+	$( "#panel-3" ).fadeIn( 300, function() {
+
+
+
+
+		});      
+		});     
+	});   
+});  
