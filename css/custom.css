@@ -64,16 +64,16 @@ color: rgba(255,255,255,.84)
   padding-bottom: 5px;
 }
 
-.row-background-blue{
+.row-background-blue {
   background-color: #0d113f;
 }
+
 .social-icons {
   list-style: none;
   text-decoration:none;
   display:inline-block !important;  
   float:left;
   position: relative;
-  
 }
 
 .footer-text {
@@ -100,6 +100,7 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 .panel-primary > .panel-heading {
   background-color: #f50057;
 }
