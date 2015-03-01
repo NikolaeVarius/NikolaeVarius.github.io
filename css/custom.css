@@ -65,7 +65,7 @@ color: rgba(255,255,255,.84)
 }
 
 .row-background-blue{
-  background-color: blue;
+  background-color: #0d113f;
 }
 .social-icons {
   list-style: none;
@@ -92,10 +92,6 @@ color: rgba(255,255,255,.84)
   margin-bottom: 10px;
 }
 
-p {
-  font-size:15px;
-}
-
 #contacts {
   align-content:: center;
 }
@@ -104,11 +100,6 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
-
-.about-post {
-  font-size:16px;
-}
-
 .panel-primary > .panel-heading {
   background-color: #f50057;
 }
