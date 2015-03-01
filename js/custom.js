@@ -9,6 +9,7 @@ $(function () { //this set of functions deals with the nav bar
 	 	$(this).css({
 	 		'background-color':'#1a237e'
 	 	});
+	 	//$(this).animate({'background-color':'#1a237e'}, 'slow');
     });
 
    	$navbutton.on("mouseout",function(){ //change color when mouse exit
@@ -22,18 +23,13 @@ $(function () { //this set of functions deals with the nav bar
 $(document).ready(function () {
 	$( ".panel" ).hide();
 
-	//$( ".panel" ).fadeIn( 2000, function() {
-	//$( ".panel" ).fadeIn( 3000, function() {
-	//$( ".panel" ).fadeIn( 4000, function() {
+	$( "#panel-1" ).slideDown( 100, function() {
+	$( "#panel-4" ).slideDown( 100, function() {
+	$( "#panel-2" ).slideDown( 200, function() {
+	$( "#panel-3" ).slideDown( 300, function() {
 
-	$( "#panel-1" ).fadeIn( 100, function() {
-	$( "#panel-2" ).fadeIn( 200, function() {
-	$( "#panel-3" ).fadeIn( 300, function() {
-
-
-
-
+		}); 
 		});      
-		});     
+	});     
 	});   
 });  
