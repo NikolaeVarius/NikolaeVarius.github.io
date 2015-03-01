@@ -6,10 +6,10 @@ $(function () { //this set of functions deals with the nav bar
     });
 
     $navbutton.on("mouseover",function(){ //change color when mouse hover
-	 	$(this).css({
+	 	$(this).css({ //changes css
 	 		'background-color':'#1a237e'
 	 	});
-	 	//$(this).animate({'background-color':'#1a237e'}, 'slow');
+	 	//$(this).animate({'background-color':'#1a237e'}, 'slow'); //versus using animation function. Css is probably faster?
     });
 
    	$navbutton.on("mouseout",function(){ //change color when mouse exit
@@ -21,7 +21,7 @@ $(function () { //this set of functions deals with the nav bar
 });
 
 $(document).ready(function () {
-	$( ".panel" ).hide();
+	$( ".home-panel" ).hide();
 
 	$( "#panel-1" ).slideDown( 100, function() {
 	$( "#panel-4" ).slideDown( 100, function() {

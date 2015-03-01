@@ -64,6 +64,9 @@ color: rgba(255,255,255,.84)
   padding-bottom: 5px;
 }
 
+.row-background-blue{
+  background-color: blue;
+}
 .social-icons {
   list-style: none;
   text-decoration:none;
