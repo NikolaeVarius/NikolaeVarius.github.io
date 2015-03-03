@@ -118,7 +118,7 @@ body {
 .home-panel-loaded{
   transform: translateY(0px);
   transition-property: all;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
   display: block;

@@ -22,25 +22,10 @@ $(function () { //this set of functions deals with the nav bar
 
 
 $(document).ready(function () {
-	/*
-	$( ".home-panel" ).hide();
-
-	$( "#panel-1" ).slideDown( 200, function() {
-	$( "#panel-4" ).slideDown( 200, function() {
-	$( "#panel-2" ).slideDown( 200, function() {
-	$( "#panel-3" ).slideDown( 200, function() {
-
-	}); 
-	});      
-	});     
-	}); 
-	*/  
-
 	$(".home-panel").each(function (i) {
     var $panel = $(this); 
 
 	    setTimeout(function() { 
-	      $panel.addClass('home-panel-loaded') }, 300*i);
-  });
-	//$( ".home-panel" ).addClass('home-panel-loaded')
+			$panel.addClass('home-panel-loaded') }, 300*i);
+	  	});
 });  
