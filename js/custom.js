@@ -35,5 +35,12 @@ $(document).ready(function () {
 	});     
 	}); 
 	*/  
-	$( ".home-panel" ).addClass('home-panel-loaded')
+
+	$(".home-panel").each(function (i) {
+    var $panel = $(this); 
+
+	    setTimeout(function() { 
+	      $panel.addClass('home-panel-loaded') }, 300*i);
+  });
+	//$( ".home-panel" ).addClass('home-panel-loaded')
 });  
