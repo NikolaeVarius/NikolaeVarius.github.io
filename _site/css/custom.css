@@ -109,13 +109,18 @@ body {
   background-color: #f50057;
 }
 
-/*.panel {
-    transform: translateY(0px);
-    transition: all 0.3s ease-out 0s;
-        transition-property: all;
-        transition-duration: 0.3s;
-        transition-timing-function: ease-out;
-        transition-delay: 0s;
-    display: block;
-    opacity: 1;
-}*/
+
+.home-panel{
+  transform: translateY(1080px);
+  opacity: 0;
+}
+
+.home-panel-loaded{
+  transform: translateY(0px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  display: block;
+  opacity: 1;
+}

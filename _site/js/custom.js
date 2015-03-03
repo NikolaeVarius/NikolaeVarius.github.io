@@ -20,16 +20,20 @@ $(function () { //this set of functions deals with the nav bar
 
 });
 
+
 $(document).ready(function () {
+	/*
 	$( ".home-panel" ).hide();
 
-	$( "#panel-1" ).slideDown( 100, function() {
-	$( "#panel-4" ).slideDown( 100, function() {
+	$( "#panel-1" ).slideDown( 200, function() {
+	$( "#panel-4" ).slideDown( 200, function() {
 	$( "#panel-2" ).slideDown( 200, function() {
-	$( "#panel-3" ).slideDown( 300, function() {
+	$( "#panel-3" ).slideDown( 200, function() {
 
-		}); 
-		});      
+	}); 
+	});      
 	});     
-	});   
+	}); 
+	*/  
+	$( ".home-panel" ).addClass('home-panel-loaded')
 });  
