@@ -152,7 +152,28 @@ body {
 }
 
 .resume-card{
-  margin-left: 10px;
+  transform: translateY(1920px);
+  opacity: 0;
+}
+
+.resume-card .active{
+  transform: translateY(0px);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.2s;
+  display: block;
+  opacity: 1;
+}
+
+.resume-card .deactive{
+  transform: translateX(1920px);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.2s;
+  display: block;
+  opacity: 1;
 }
 
 a:hover, a:focus {

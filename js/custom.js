@@ -34,4 +34,24 @@ $(document).ready(function () {
 	    setTimeout(function() { 
 			$panel.addClass('animate-about-panel-loaded') }, 300*i);
 	  	});
+
+
+
+	//This section specifically for resume page
+	$("div > ul > li").click(function(){
+		var clicked = $(this).index();
+			$(this).css({
+				'color':'white'
+		});
+
+	$(".main-pages :nth-child(clicked)").function()({ //animate panel coming in when requisite button is pressed
+			$(this).addClass("active").siblings().removeClass("active");
+	  	});
+
+
+	// $(".main-pages :nth-child(clicked)").each(function (i) { //animate sliding out when other panel in pressed
+ //    	var $panel = $(this); 
+
+	// 		$(this).addClass("active").siblings().removeClass("active");
+	//   	});
 });  
