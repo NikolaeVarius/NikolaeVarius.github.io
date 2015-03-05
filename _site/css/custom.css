@@ -152,8 +152,8 @@ body {
 }
 
 .resume-card{
-  transform: translateY(1920px);
-  opacity: 0;
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 .resume-card .active{
@@ -167,7 +167,7 @@ body {
 }
 
 .resume-card .deactive{
-  transform: translateX(1920px);
+  transform: translateX(0px);
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
