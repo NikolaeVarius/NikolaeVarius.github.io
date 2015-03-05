@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-material-blue-900.navbar {
-background-color: #0d113f;
+background-color: #1e2e3f;
 color: rgba(255,255,255,.84)
 }
 
@@ -110,12 +110,12 @@ body {
 }
 
 
-.home-panel{
+.animate-panel{
   transform: translateY(1080px);
   opacity: 0;
 }
 
-.home-panel-loaded{
+.animate-panel-loaded{
   transform: translateY(0px);
   transition-property: all;
   transition-duration: 0.3s;

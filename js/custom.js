@@ -5,27 +5,26 @@ $(function () { //this set of functions deals with the nav bar
             $('.navbar-toggle:visible').click();
     });
 
-    $navbutton.on("mouseover",function(){ //change color when mouse hover
-	 	$(this).css({ //changes css
-	 		'background-color':'#1a237e'
+    $navbutton.on("mouseover",function(){ //change color when mouse hover over nav button
+	 	$(this).css({
+	 		'color':'#486c96'
 	 	});
-	 	//$(this).animate({'background-color':'#1a237e'}, 'slow'); //versus using animation function. Css is probably faster?
-    });
+	});
 
    	$navbutton.on("mouseout",function(){ //change color when mouse exit
  		$(this).css({
- 			'background-color':'#0d113f'
+ 			'color':'#e0e0e0'
  		});
     });
 
 });
 
-
+//This animates the on-load card enter from bottom animation. I love this animation, its BEAUTIFUL
 $(document).ready(function () {
-	$(".home-panel").each(function (i) {
+	$(".animate-panel").each(function (i) {
     var $panel = $(this); 
 
 	    setTimeout(function() { 
-			$panel.addClass('home-panel-loaded') }, 300*i);
+			$panel.addClass('animate-panel-loaded') }, 300*i);
 	  	});
 });  
