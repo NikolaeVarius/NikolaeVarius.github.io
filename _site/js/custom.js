@@ -27,4 +27,11 @@ $(document).ready(function () {
 	    setTimeout(function() { 
 			$panel.addClass('animate-panel-loaded') }, 300*i);
 	  	});
+
+	$(".animate-about-panel").each(function (i) {
+    	var $panel = $(this); 
+
+	    setTimeout(function() { 
+			$panel.addClass('animate-about-panel-loaded') }, 300*i);
+	  	});
 });  

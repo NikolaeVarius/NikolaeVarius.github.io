@@ -120,7 +120,22 @@ body {
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
-  transition-delay: 0s;
+  transition-delay: 0.2s;
+  display: block;
+  opacity: 1;
+}
+
+.animate-about-panel{
+  transform: translatex(-1920px);
+  opacity: 0;
+}
+
+.animate-about-panel-loaded{
+  transform: translatex(0px);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.2s;
   display: block;
   opacity: 1;
 }

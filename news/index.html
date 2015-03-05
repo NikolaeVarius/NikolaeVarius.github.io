@@ -7,7 +7,10 @@ layout: default
       <ul class="post-list">
         {% for post in site.posts %}
           <div class="panel panel-default animate-panel">
-          <div class="panel-heading post-meta"> <h1>{{ post.date | date: "%b %-d, %Y" }}</h1></div>
+          <div class="panel-heading post-meta"> 
+            <i class="mdi-communication-chat" style="float:left;"></i>
+            <h1>{{ post.date | date: "%b %-d, %Y" }}</h1>
+          </div>
             <div class="panel-body">
                 <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             </div>
