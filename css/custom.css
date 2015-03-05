@@ -38,10 +38,10 @@ color: rgba(255,255,255,.84)
 }
 
 .bg {
-  background-image: url("../img/heading.jpg");
+  background-image: url("../img/heading2.png");
   background-size:cover !important;
   background-repeat:no-repeat !important;
-  height: 150px;
+  height: 300px;
   margin-top: 60px;
   -webkit-background-size:cover !important;
   -moz-background-size:cover !important;
