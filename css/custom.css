@@ -148,16 +148,17 @@ body {
   margin-top:-10px;
   margin-bottom: -30px;
   text-align: center;
+  padding-right: 0px;
   
 }
 
 .resume-card{
-  transform: translateY(0px);
-  opacity: 1;
+  transform: translatey(1080px);
+  opacity: 0;
 }
 
-.resume-card .active{
-  transform: translateY(0px);
+.active {
+  transform: translatey(0px);
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
@@ -166,16 +167,12 @@ body {
   opacity: 1;
 }
 
-.resume-card .deactive{
-  transform: translateX(0px);
+.deactive {
+  transform: translateX(1920px);
   transition-property: all;
-  transition-duration: 0.3s;
+  transition-duration: 0.5s;
   transition-timing-function: ease-out;
   transition-delay: 0.2s;
   display: block;
-  opacity: 1;
-}
-
-a:hover, a:focus {
-  background-color: orange;
+  opacity: 0;
 }
