@@ -17,59 +17,72 @@ $(document).ready(function() {
  			'color':'#e0e0e0'
  		});
     });
-
-
 	//This animates the on-load card enter/exit from bottom animation. I love this animation, its BEAUTIFUL
 	$(".animate-panel").each(function (i) {
     var $panel = $(this); 
-
 	    setTimeout(function() { 
 			$panel.addClass('animate-panel-loaded') }, 300*i);
 	 });
 
 	$(".animate-about-panel").each(function (i) {
     	var $panel = $(this); 
-
 	    setTimeout(function() { 
 			$panel.addClass('animate-about-panel-loaded') }, 300*i);
 	 });
 
 
 	//This section deals with the special case of the aside bar on the resume page
-	$(".aside-btn").click(function(){ //note .click is better than onclick
+	//trying to figure out a good way to manage this"
+	$(".aside-btn").click(function(){
 		var $resumeSection = $(this)
 		var $sectionindex = $resumeSection.index();
 		console.log($sectionindex);
 
 		if($sectionindex === 0){
-			var $activepanel = $('#Profile')
-			$activepanel.siblings().addClass("deactive");
+			var $activepanel = $('#Profile');
+			var $siblingpanel = $activepanel.siblings();
+
 			$activepanel.addClass("active");
-			$activepanel.siblings().removeClass('active');
-		};
-		if($sectionindex === 1){
-			var $activepanel = $('#ProfExp')
-			$activepanel.siblings().addClass("deactive");
+			$activepanel.removeClass("deactive");
+			$siblingpanel.toggleClass("active",false);
+
+		}
+		else if($sectionindex === 1){
+			var $activepanel = $('#ProfExp');
+			var $siblingpanel = $activepanel.siblings();
+
+			
 			$activepanel.addClass("active");
-			$activepanel.siblings().removeClass('active');
-		};
-		if($sectionindex === 2){
-			var $activepanel = $('#Skills')
-			$activepanel.siblings().addClass("deactive");
+			$activepanel.removeClass("deactive");
+			$siblingpanel.toggleClass("deactive",true);
+			$siblingpanel.toggleClass("active",false);
+		}
+		else if($sectionindex === 2){
+			var $activepanel = $('#Skills');
+			var $siblingpanel = $activepanel.siblings();
+
 			$activepanel.addClass("active");
-			$activepanel.siblings().removeClass('active');
-		};
-		if($sectionindex === 3){
-			var $activepanel = $('#Projects')
-			$activepanel.siblings().addClass("deactive");
+			$activepanel.removeClass("deactive");
+			$siblingpanel.toggleClass("deactive",true);
+			$siblingpanel.toggleClass("active",false);
+		}
+		else if($sectionindex === 3){
+			var $activepanel = $('#Projects');
+			var $siblingpanel = $activepanel.siblings();
+
 			$activepanel.addClass("active");
-			$activepanel.siblings().removeClass('active');
-		};
-		if($sectionindex === 4){
-			var $activepanel = $('#Other')
-			$activepanel.siblings().addClass("deactive");
+			$activepanel.removeClass("deactive");
+			$siblingpanel.toggleClass("deactive",true);
+			$siblingpanel.toggleClass("active",false);
+		}
+		else if($sectionindex === 4){
+			var $activepanel = $('#Other');
+			var $siblingpanel = $activepanel.siblings();
+
 			$activepanel.addClass("active");
-			$activepanel.siblings().removeClass('active');
+			$activepanel.removeClass("deactive");
+			$siblingpanel.toggleClass("deactive",true);
+			$siblingpanel.toggleClass("active",false);
 		};
 
 	}); 
