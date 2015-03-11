@@ -18,7 +18,7 @@
 
 body {
   overflow-x: hidden;
- }
+  }
 
 
 .navbar-fixed {
@@ -41,7 +41,7 @@ body {
   -webkit-background-size:cover !important;
   -moz-background-size:cover !important;
   -o-background-size:cover !important;
-}
+  }
 
 @media (max-width: 767px) {
   .bg {
@@ -57,16 +57,16 @@ body {
 .header-name {
   font-size: 100px;
   text-align: center;
-}
+  }
 
 #s-icon {
   padding-top: 5px;
   padding-bottom: 5px;
-}
+  }
 
 .row-background-blue {
   background-color: #0d113f;
-}
+  }
 
 .social-icons {
   list-style: none;
@@ -74,36 +74,36 @@ body {
   display:inline-block !important;  
   float:left;
   position: relative;
-}
+  }
 
 .footer-text {
   margin-right: 20px;
-}
+  }
 
 .content-padding {
   padding-top:10px;
-}
+  }
 
 .panel-heading > h1 {
   font-size:25px;
-}
+  }
 
 .panel {
   margin-bottom: 10px;
-}
+  }
 
 #contacts {
   align-content:: center;
-}
+  }
 
 body {
   padding-left: 0px;
   padding-right: 0px;
-}
+  }
 
 .panel-primary > .panel-heading {
   background-color: #f50057;
-}
+  }
 
 .resume-nav {
   background-color: #0E151C;
@@ -114,7 +114,7 @@ body {
   text-align: center;
   padding-right: 0px;
   
-}
+  }
 
 
 

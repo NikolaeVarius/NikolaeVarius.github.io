@@ -8,17 +8,20 @@ $(document).ready(function() {
 
     //top nav bar behavior
 	$navbutton.mouseover(function(){
+		console.log('entered here');
 	 	$(this).css({
 	 		'color':'#486c96'
 	 	});
 	});
-   	$navbutton.mouseover(function(){
+
+   	$navbutton.mouseleave(function(){
  		$(this).css({
  			'color':'#e0e0e0'
  		});
     });
 
     function navOnClick(){
+    	$
 
     }
 
@@ -27,16 +30,16 @@ $(document).ready(function() {
     }
 
 	//This animates the on-load card enter/exit from bottom animation. I love this animation, its BEAUTIFUL
-	$(".animate-panel-start").each(function (i) {
+	$("div .panel").each(function (i) {
     var $panel = $(this); 
 	    setTimeout(function() { 
-			$panel.addClass('animate-panel-loaded') }, 500*i);
+			$panel.addClass('animate-panel-loaded') }, 300*i);
 	 });
 
-	$(".animate-about-panel-start").each(function (i) {
+	$("div .animate-about-panel-start").each(function (i) {
     	var $panel = $(this); 
 	    setTimeout(function() { 
-			$panel.addClass('animate-about-panel-loaded') }, 500*i);
+			$panel.addClass('animate-about-panel-loaded') }, 300*i);
 	 });
 
 	//Returns the index of the currently selected section
@@ -44,11 +47,10 @@ $(document).ready(function() {
 		var $currentIndex;
 
 		$('div .resumeCard').each(i).hasClass
-
 	}
 
-	//This section deals with the special case of the aside bar on the resume page
-	//trying to figure out a good way to manage this"
+	//Temporarirly doing this brute force. Seeing what looks good before I refactor
+	//manages card in and out on resume page
 	$(".aside-btn").click(function(){
 		var $resumeSection = $(this)
 		var $sectionindex = $resumeSection.index();
@@ -68,7 +70,6 @@ $(document).ready(function() {
 			var $activepanel = $('#ProfExp');
 			var $siblingpanel = $activepanel.siblings();
 
-			
 			$activepanel.addClass("animate-panel-loaded");
 			$activepanel.removeClass("animate-panel-start");
 			$siblingpanel.toggleClass("deactivate-panel",true);
