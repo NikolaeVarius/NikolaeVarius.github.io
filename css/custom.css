@@ -20,13 +20,6 @@ body {
   overflow-x: hidden;
  }
 
-.roboto-white {
-  color: #e0e0e0;
-  }
-
-.roboto-black {
-  color: #212121;
-  }
 
 .navbar-fixed {
   margin-left: 0px !important;
@@ -123,27 +116,12 @@ body {
   
 }
 
-/*Starting Position of Card*/
-.animate-panel-start {
-  transform: translateY(1080px);
-  opacity: 0;
-}
+
 
 /*Starting Position test on about page*/
 .animate-about-panel-start {
   transform: translatex(-1920px);
   opacity: 0;
-}
-
-/* Final Position of Card when on the Page*/
-.animate-panel-loaded {
-  transform: translateY(0px);
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-  transition-delay: 0.2s;
-  display: block;
-  opacity: 1;
 }
 
 /* Final Position of about text when on the Page*/
@@ -169,6 +147,32 @@ body {
   opacity: 0;
 }
 
-.inner {
+/*Starting Position of Card*/
+.animate-panel-start {
+  transform: translateY(1080px);
+  opacity: 0;
+}
+
+/* Final Position of Card when on the Page*/
+.animate-panel-loaded {
+  transform: translateY(0px);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.2s;
+  display: block;
+  opacity: 1;
+}
+
+
+.resumeCard {
   position: absolute;
+}
+
+.roboto-white { 
+  color: #e0e0e0 !important;
+}
+
+.roboto-black {
+  color: #212121 !important;
 }
